@@ -1,0 +1,260 @@
+{
+    "report": [null, "2022-11-28T20:23:46.926Z", [
+        ["rcc-curated-default-01-daily", 2, "2022-11-07T15:02+01:00", "", "2022-11-07"],
+        ["rcc-curated-default-02-daily", 1, "2022-11-07T15:03+01:00", "", "2022-11-07"],
+        ["rcc-curated-default-03-daily", 2, "2022-11-07T15:03+01:00", "", "2022-11-07"],
+        ["rcc-curated-default-06-daily", 3, "2022-11-07T15:03+01:00", "", "2022-11-07"],
+        ["rcc-curated-default-07-daily", 3, "2022-11-07T15:03+01:00", "", "2022-11-07"],
+        ["rcc-curated-default-01-daily", 1, "2022-11-11T15:06+01:00", "", "2022-11-11"],
+        ["rcc-curated-default-02-daily", 1, "2022-11-11T15:06+01:00", "", "2022-11-11"],
+        ["rcc-curated-default-03-daily", 2, "2022-11-11T07:18+01:00", "", "2022-11-11"],
+        ["rcc-curated-default-06-daily", 1, "2022-11-11T15:06+01:00", "", "2022-11-11"],
+        ["rcc-curated-default-07-daily", 2, "2022-11-11T15:06+01:00", "", "2022-11-11"],
+        ["rcc-curated-default-01-daily", 2, "2022-11-13T08:55+01:00", "", "2022-11-13"],
+        ["rcc-curated-default-02-daily", 1, "2022-11-13T08:56+01:00", "", "2022-11-13"],
+        ["rcc-curated-default-03-daily", 1, "2022-11-13T08:56+01:00", "", "2022-11-13"],
+        ["rcc-curated-default-06-daily", 1, "2022-11-13T08:56+01:00", "", "2022-11-13"],
+        ["rcc-curated-default-07-daily", 0, "2022-11-13T08:56+01:00", "", "2022-11-13"],
+        ["rcc-curated-default-01-daily", 3, "2022-11-17T20:07+01:00", "", "2022-11-17"],
+        ["rcc-curated-default-02-daily", 1, "2022-11-17T20:07+01:00", "", "2022-11-17"],
+        ["rcc-curated-default-03-daily", 2, "2022-11-17T20:07+01:00", "", "2022-11-17"],
+        ["rcc-curated-default-06-daily", 1, "2022-11-17T20:07+01:00", "", "2022-11-17"],
+        ["rcc-curated-default-07-daily", 2, "2022-11-17T20:08+01:00", "", "2022-11-17"],
+        ["rcc-curated-default-01-daily", 1, "2022-11-18T09:04+01:00", "", "2022-11-18"],
+        ["rcc-curated-default-02-daily", 3, "2022-11-18T09:04+01:00", "", "2022-11-18"],
+        ["rcc-curated-default-03-daily", 1, "2022-11-18T09:04+01:00", "", "2022-11-18"],
+        ["rcc-curated-default-06-daily", 3, "2022-11-18T09:04+01:00", "", "2022-11-18"],
+        ["rcc-curated-default-07-daily", 2, "2022-11-18T09:04+01:00", "", "2022-11-18"],
+        ["rcc-curated-default-01-daily", 0, "2022-11-23T08:32+01:00", "", "2022-11-23"],
+        ["rcc-curated-default-02-daily", 2, "2022-11-23T08:32+01:00", "", "2022-11-23"],
+        ["rcc-curated-default-03-daily", 1, "2022-11-23T08:32+01:00", "", "2022-11-23"],
+        ["rcc-curated-default-06-daily", 2, "2022-11-23T08:32+01:00", "", "2022-11-23"],
+        ["rcc-curated-default-07-daily", 3, "2022-11-23T08:32+01:00", "", "2022-11-23"],
+        ["rcc-curated-default-01-daily", 1, "2022-11-25T12:46+01:00", "", "2022-11-25"],
+        ["rcc-curated-default-02-daily", 1, "2022-11-25T12:46+01:00", "", "2022-11-25"],
+        ["rcc-curated-default-03-daily", 1, "2022-11-25T12:46+01:00", "", "2022-11-25"],
+        ["rcc-curated-default-06-daily", 1, "2022-11-25T12:46+01:00", "", "2022-11-25"],
+        ["rcc-curated-default-07-daily", 1, "2022-11-25T12:46+01:00", "", "2022-11-25"]
+    ]],
+    "questions": [
+    {
+        "id": "rcc-curated-default-01-daily",
+        "type": "integer",
+        "meaning": "Konnten Sie Ihren Alltag heute so gut wie sonst bewältigen?",
+        "translations":
+        {
+            "en": "How well were you able to manage your usual daily tasks today?",
+            "de": "Konnten Sie Ihren Alltag heute so gut wie sonst bewältigen?"
+        },
+        "options": [
+        {
+            "value": 0,
+            "translations":
+            {
+                "en": "yes",
+                "de": "ja, vollkommen"
+            }
+        },
+        {
+            "value": 1,
+            "translations":
+            {
+                "en": "somewhat worse",
+                "de": "ja, mit leichten Einschränkungen"
+            }
+        },
+        {
+            "value": 2,
+            "translations":
+            {
+                "en": "moderately worse",
+                "de": "mit deutlichen Einschränkungen"
+            }
+        },
+        {
+            "value": 3,
+            "translations":
+            {
+                "en": "a lot worse",
+                "de": "kaum"
+            }
+        }],
+        "tags": ["rcc-category-psychosis", "rcc-category-depression", "rcc-category-mania", "rcc-category-schizoaffective-disorders", "icd-10-f20", "icd-10-f25", "icd-10-f31", "icd-10-f33", "schizoaffective disorders", "psychosis", "rcc-symptom-area-daily-function", "rcc-category-daily", "rcc-category-default"]
+    },
+    {
+        "id": "rcc-curated-default-02-daily",
+        "type": "integer",
+        "meaning": "Haben Sie sich heute niedergeschlagen gefühlt?",
+        "translations":
+        {
+            "en": "Did you feel down today?",
+            "de": "Haben Sie sich heute niedergeschlagen gefühlt?"
+        },
+        "options": [
+        {
+            "value": 0,
+            "translations":
+            {
+                "en": "not at all",
+                "de": "nein"
+            }
+        },
+        {
+            "value": 1,
+            "translations":
+            {
+                "en": "somewhat",
+                "de": "etwas"
+            }
+        },
+        {
+            "value": 2,
+            "translations":
+            {
+                "en": "moderately",
+                "de": "mäßig"
+            }
+        },
+        {
+            "value": 3,
+            "translations":
+            {
+                "en": "very",
+                "de": "stark"
+            }
+        }],
+        "tags": ["rcc-category-psychosis", "rcc-category-depression", "rcc-category-mania", "rcc-category-schizoaffective-disorders", "icd-10-f20", "icd-10-f25", "icd-10-f31", "icd-10-f33", "schizoaffective disorders", "psychosis", "rcc-symptom-area-mood", "rcc-category-daily", "rcc-category-default"]
+    },
+    {
+        "id": "rcc-curated-default-03-daily",
+        "type": "integer",
+        "meaning": "Sind Sie antriebslos?",
+        "translations":
+        {
+            "en": "Was your energy low today?",
+            "de": "Sind Sie antriebslos?"
+        },
+        "options": [
+        {
+            "value": 0,
+            "translations":
+            {
+                "en": "not at all",
+                "de": "nein"
+            }
+        },
+        {
+            "value": 1,
+            "translations":
+            {
+                "en": "somewhat",
+                "de": "etwas"
+            }
+        },
+        {
+            "value": 2,
+            "translations":
+            {
+                "en": "moderately",
+                "de": "deutlich"
+            }
+        },
+        {
+            "value": 3,
+            "translations":
+            {
+                "en": "very",
+                "de": "stark"
+            }
+        }],
+        "tags": ["rcc-category-psychosis", "rcc-category-depression", "rcc-category-mania", "rcc-category-schizoaffective-disorders", "icd-10-f20", "icd-10-f25", "icd-10-f31", "icd-10-f33", "schizoaffective disorders", "psychosis", "rcc-symptom-area-drive", "rcc-category-daily", "rcc-category-default"]
+    },
+    {
+        "id": "rcc-curated-default-06-daily",
+        "type": "integer",
+        "meaning": "Waren Sie voller Energie und motiviert, viele verschiedene Dinge zu tun?",
+        "translations":
+        {
+            "en": "Were you full of energy and motivated to do lots of different things today?",
+            "de": "Waren Sie voller Energie und motiviert, viele verschiedene Dinge zu tun?"
+        },
+        "options": [
+        {
+            "value": 0,
+            "translations":
+            {
+                "en": "not at all",
+                "de": "nein"
+            }
+        },
+        {
+            "value": 1,
+            "translations":
+            {
+                "en": "somewhat",
+                "de": "gering"
+            }
+        },
+        {
+            "value": 2,
+            "translations":
+            {
+                "en": "moderately",
+                "de": "mäßig"
+            }
+        },
+        {
+            "value": 3,
+            "translations":
+            {
+                "en": "very",
+                "de": "stark"
+            }
+        }],
+        "tags": ["rcc-category-schizoaffective-disorders", "rcc-category-mania", "icd-10-f31", "icd-10-f33", "mania", "schizoaffective disorders", "rcc-symptom-area-drive-activity", "rcc-category-daily", "rcc-category-default"]
+    },
+    {
+        "id": "rcc-curated-default-07-daily",
+        "type": "integer",
+        "meaning": "Haben Sie heute den Eindruck, die Gedanken rasen Ihnen durch den Kopf?",
+        "translations":
+        {
+            "en": "Did you have the impression that thoughts were racing through your head today?",
+            "de": "Haben Sie heute den Eindruck, die Gedanken rasen Ihnen durch den Kopf?"
+        },
+        "options": [
+        {
+            "value": 0,
+            "translations":
+            {
+                "en": "not at all",
+                "de": "nein"
+            }
+        },
+        {
+            "value": 1,
+            "translations":
+            {
+                "en": "rarely",
+                "de": "manchmal"
+            }
+        },
+        {
+            "value": 2,
+            "translations":
+            {
+                "en": "often",
+                "de": "häufig"
+            }
+        },
+        {
+            "value": 3,
+            "translations":
+            {
+                "en": "constantly",
+                "de": "ständig"
+            }
+        }],
+        "tags": ["rcc-category-schizoaffective-disorders", "rcc-category-mania", "icd-10-f31", "icd-10-f33", "mania", "schizoaffective disorders", "rcc-symptom-area-cognitive-abilities", "rcc-category-daily", "rcc-category-default"]
+    }]
+}
